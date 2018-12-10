@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @cctv.brand %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @cctv.category %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @cctv.model %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @cctv.price %>
+</p>
+
+<%= link_to 'Edit', edit_cctv_path(@cctv) %> |
+<%= link_to 'Back', cctvs_path %>
